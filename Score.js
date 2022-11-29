@@ -9,7 +9,7 @@ class Score {
   display(score) {
     fill(255);
     textAlign(CENTER);
-    textSize(60);
+    textSize(45);
     text(score, this.x, this.y);
   }
 

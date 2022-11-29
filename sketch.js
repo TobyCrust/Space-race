@@ -1,4 +1,4 @@
-var debnum = 120;
+var debnum = 60;
 let leftShip;
 let rightShip;
 let allDebris = [];
@@ -11,7 +11,7 @@ let rightScore;
 let spaceshipImage;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
 
   spaceshipImage = loadImage('rocket.png');
 
@@ -23,8 +23,8 @@ function setup() {
   }
 
 
-  leftScore = new Score(width * 0.33 - 240);
-  rightScore = new Score(width * 0.66 + 240);
+  leftScore = new Score(width * 0.33 - 110);
+  rightScore = new Score(width * 0.66 + 110);
 
 
 

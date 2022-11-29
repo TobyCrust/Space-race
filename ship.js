@@ -4,7 +4,7 @@ class Ship {
     this.x = x;
     this.score = 0;
     this.respawn();
-    this.r = 20;
+    this.r = 15;
     this.spaceshipImage = spaceshipImage;
   }
 
